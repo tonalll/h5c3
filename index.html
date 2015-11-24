@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--  <meta name="viewport" content="width=device-width,user-scalable=no,target-densitydpi=72"/>-->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no,target-densitydpi=device-dpi"/>
+    <title>Document</title>
+</head>
+<style>
+    body,html{
+    height: 100%;}
+    *{margin: 0;padding: 0;}
+    .con {
+        height: calc(100% - 2em);
+        background: #000;
+        color: #ffffff;
+    }
+
+    .foot {
+        height: 2em;
+        display: flex;
+        background: #ddd;
+    }
+    .foot div{
+        flex:1;
+        text-align: center;
+        color: #ffffff;
+/*        margin:0 0.75em;*/
+        line-height: 2em;
+        background: #dd1144;
+    }
+
+    .foot div:not(:last-child){
+        border-right: 1px solid #ffffff;}
+    .foot div:last-child{
+        margin-right: 0;
+    }
+</style>
+<body>
+<div class="con">con
+    <img src="img/160-160.png" alt=""/>
+</div>
+<div class="foot">
+    <div>代用名</div>
+    <div>代用名</div>
+    <div>代用名</div>
+    <div>代用名</div>
+</div>
+</body>
+<script>
+    
+</script>
+</html>
